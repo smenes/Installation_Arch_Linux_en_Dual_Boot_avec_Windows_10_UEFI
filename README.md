@@ -136,8 +136,8 @@ Ce guide détaille l'installation d'Arch Linux en dual boot sur un système avec
     
 3.  **Monter la partition EFI EXISTANTE de Windows :**
     
-    - **TRÈS IMPORTANT :** Identifiez correctement la partition EFI de Windows. C'est généralement une petite partition (100-500 Mo) formatée en FAT32, souvent la première partition du disque (ex: `/dev/sda1` ou `/dev/nvme0n1p1`).
-    - Vérifiez avec `lsblk -f`.
+    - **TRÈS IMPORTANT :** Identifiez correctement la partition EFI de Windows. C'est généralement une petite partition (100-500 Mo) formatée en FAT32, souvent la première partition du disque (ex: `/dev/sda1` ou `/dev/nvme0n1p1`). Vérifiez avec `lsblk -f`.
+      
 
     
     ```bash
